@@ -3,7 +3,7 @@ export const metadata = {
   title: "Blog | Flow Hashtag Media Insights & Web Development Tips",
   description:
     "Stay updated with the latest digital marketing trends, SEO strategies, and web development tips on the Flow Hashtag Media blog. Enhance your online presence with expert insights.",
-  metadataBase: new URL("https://www.webwave.co.in/"),
+  metadataBase: new URL("https://www.blog.flowhashtagmedia.com/"),
   alternates: {
     canonical: "/blog",
   },

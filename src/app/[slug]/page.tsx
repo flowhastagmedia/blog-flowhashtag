@@ -77,7 +77,7 @@ export async function generateMetadata({ params }: BlogPageProps) {
       title: blogData.title,
       description: blogData.summary,
       images: [blogData?.image?.url],
-      url: `https://blog.flowhashtagmedia.com/${slug}/`, // Update with your site's URL
+      url: `https://blog.flowhashtagmedia.com/${slug}`, // Update with your site's URL
     },
     metadataBase: new URL("https://blog.flowhashtagmedia.com/"),
     alternates: {

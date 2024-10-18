@@ -51,7 +51,7 @@ const fetchBlogPosts = async () => {
       return [];
     }
 
-    return entries.items.map((item) => `${item.fields.slug}/`);
+    return entries.items.map((item) => `${item.fields.slug}`);
   } catch (error) {
     console.error("Error fetching blog posts:", error.message);
     return [];
