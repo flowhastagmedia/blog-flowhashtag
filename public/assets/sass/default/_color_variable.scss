@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------
+1. Basic Color Variable
+----------------------------------------------------------------*/
+
+$white: #feffff;
+$black: #000;
+$primary: #3aafa9;
+$secondary: #2b7a78;
+$ternary: #17252a;
+$border: #17252a;
+$gray: #181818;
+$hrcOlor: #d9d9d9;
+$cr_banner: #f4f4f4;
+$accent: #feffff;
+$gray_sc: #565656;
+:root {
+  --body-font-family: "Kanit", sans-serif;
+  --heading-font-family: "Inter Tight", sans-serif;
+  --accent-color: #2b7a78;
+  --body-color: #feffff;
+  --heading-color: #17252a;
+  --primary-color: #17252a;
+  --cr_banner-color: #f4f4f4;
+  --border-color: #17252a;
+  --common-color-white: #feffff;
+  --common-color-black: #000000;
+  --drak-color: #3aafa9;
+}
+
+.dark {
+  --drak-color: #181818;
+  --cr_banner-color: #181818;
+  --accent-color: #2b7a78;
+  --body-color: #e0e0e0;
+  --heading-color: #feffff;
+  --primary-color: #feffff;
+  --common-color-white: #000000;
+  --common-color-black: #feffff;
+}

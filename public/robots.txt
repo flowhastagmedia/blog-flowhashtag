@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.blog.flowhashtagmedia.com/blog-sitemap.xml
