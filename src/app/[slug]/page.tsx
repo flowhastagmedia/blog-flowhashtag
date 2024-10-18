@@ -81,7 +81,7 @@ export async function generateMetadata({ params }: BlogPageProps) {
     },
     metadataBase: new URL("https://blog.flowhashtagmedia.com/"),
     alternates: {
-      canonical: `/${slug}/`,
+      canonical: `/${slug}`,
     },
   };
 }
