@@ -5,8 +5,7 @@ import UseSticky from "@/hooks/UseSticky";
 import React, { useEffect, useState } from "react";
 
 import Image from "next/image";
-import logo from "@/assets/img/logo.svg";
-import Logo_white from "@/assets/img/Logo_white.png";
+import flowhashtag from "@/assets/img/logo/flowhashtag.png";
 
 interface DataType {
   id: number;
@@ -24,7 +23,7 @@ const menu_data: DataType[] = [
   {
     id: 1,
     title: "Home",
-    link: "/",
+    link: "https://www.flowhashtagmedia.com/",
     has_dropdown: false,
     // sub_menu: [
     //   {
@@ -57,14 +56,14 @@ const menu_data: DataType[] = [
   {
     id: 2,
     title: "About",
-    link: "/about",
+    link: "https://www.flowhashtagmedia.com/about",
     has_dropdown: false,
   },
 
   {
     id: 4,
     title: "Services",
-    link: "/services",
+    link: "https://www.flowhashtagmedia.com/service",
     has_dropdown: false,
     // sub_menu: [
     //   {
@@ -99,8 +98,8 @@ const menu_data: DataType[] = [
   // },
   {
     id: 6,
-    title: "Blog",
-    link: "/blog",
+    title: "Portfolio",
+    link: "https://www.flowhashtagmedia.com/portfolio",
     has_dropdown: false,
     // sub_menu: [
     //   {
@@ -193,12 +192,18 @@ const HeaderOne = () => {
           <div className="container">
             <div className="cs_main_header_in">
               <div className="cs_main_header_left">
-                {/* <Link className="cs_site_branding logo-dark" href="/">
-                  <Image src={logo} alt="Logo" />
-                </Link> */}
-                {/* <Link className="cs_site_branding logo-white" href="/">
-                  <Image src={Logo_white} alt="Logo" />
-                </Link> */}
+                <Link
+                  className="cs_site_branding logo-dark"
+                  href="https://www.flowhashtagmedia.com/"
+                >
+                  <Image width={94} height={45} src={flowhashtag} alt="Logo" />
+                </Link>
+                <Link
+                  className="cs_site_branding logo-white"
+                  href="https://www.flowhashtagmedia.com/"
+                >
+                  <Image width={94} height={45} src={flowhashtag} alt="Logo" />
+                </Link>
               </div>
               <div className="cs_main_header_right">
                 <div className="cs_nav cs_medium">

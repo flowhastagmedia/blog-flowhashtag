@@ -19,84 +19,47 @@ const menu_data: DataType[] = [
   {
     id: 1,
     title: "Home",
-    link: "/",
+    link: "https://www.flowhashtagmedia.com/",
     has_dropdown: false,
-    sub_menu: [
-      {
-        id: 1,
-        title: "Digital Agency",
-        link: "/",
-      },
-      {
-        id: 2,
-        title: "Startup Agency",
-        link: "/startup-agency",
-      },
-      {
-        id: 3,
-        title: "Design Studio",
-        link: "/design-studio",
-      },
-      {
-        id: 4,
-        title: "Creative Protfolio",
-        link: "/creative-protfolio",
-      },
-      {
-        id: 5,
-        title: "Marketing Agency",
-        link: "/marketing-agency",
-      },
-    ],
+    // sub_menu: [
+    //   {
+    //     id: 1,
+    //     title: "Digital Agency",
+    //     link: "/",
+    //   },
+    //   {
+    //     id: 2,
+    //     title: "Startup Agency",
+    //     link: "/startup-agency",
+    //   },
+    //   {
+    //     id: 3,
+    //     title: "Design Studio",
+    //     link: "/design-studio",
+    //   },
+    //   {
+    //     id: 4,
+    //     title: "Creative Protfolio",
+    //     link: "/creative-protfolio",
+    //   },
+    //   {
+    //     id: 5,
+    //     title: "Marketing Agency",
+    //     link: "/marketing-agency",
+    //   },
+    // ],
   },
   {
     id: 2,
     title: "About",
-    link: "/about",
+    link: "https://www.flowhashtagmedia.com/about",
     has_dropdown: false,
   },
-  // {
-  //   id: 3,
-  //   title: "Pages",
-  //   link: "/about",
-  //   has_dropdown: true,
-  //   sub_menu: [
-  //     {
-  //       id: 1,
-  //       title: "About",
-  //       link: "/about",
-  //     },
-  //     {
-  //       id: 2,
-  //       title: "Team",
-  //       link: "/team",
-  //     },
-  //     {
-  //       id: 3,
-  //       title: "Team Details",
-  //       link: "/team-details",
-  //     },
-  //     {
-  //       id: 4,
-  //       title: "Contact",
-  //       link: "/contact",
-  //     },
-  //     {
-  //       id: 5,
-  //       title: "Faq",
-  //       link: "/faq",
-  //     },
-  //     {
-  //       id: 6,
-  //       title: "Error",
-  //       link: "/error",
-  //     },
-  //   ],
-  // },
+
   {
     id: 4,
     title: "Services",
-    link: "/services",
+    link: "https://www.flowhashtagmedia.com/service",
     has_dropdown: false,
     // sub_menu: [
     //   {
@@ -115,7 +78,7 @@ const menu_data: DataType[] = [
   //   id: 5,
   //   title: "Portfolio",
   //   link: "/portfolio",
-  //   has_dropdown: true,
+  //   has_dropdown: false,
   //   sub_menu: [
   //     {
   //       id: 1,
@@ -131,8 +94,8 @@ const menu_data: DataType[] = [
   // },
   {
     id: 6,
-    title: "Blog",
-    link: "/blog",
+    title: "Portfolio",
+    link: "https://www.flowhashtagmedia.com/portfolio",
     has_dropdown: false,
     // sub_menu: [
     //   {

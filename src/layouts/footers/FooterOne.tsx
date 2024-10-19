@@ -21,11 +21,11 @@ const footer_data: DataType = {
   location: `Jp Nagar`,
   footer_info: `At FlowHashtagMedia, we specialize in creating unique digital strategies that connect your brand with the right audience..`,
   links: [
-    { title: `HOME`, link: "/" },
-    { title: `ABOUT`, link: "/about" },
-    { title: `SERVICES`, link: "/services" },
+    { title: `HOME`, link: "https://www.flowhashtagmedia.com/" },
+    { title: `ABOUT`, link: "https://www.flowhashtagmedia.com/about" },
+    { title: `SERVICES`, link: "https://www.flowhashtagmedia.com/service" },
     // { title: `PORTFOLIO`, link: "/portfolio" },
-    { title: `BLOG`, link: "/blog" },
+    { title: `Portfolio`, link: "https://www.flowhashtagmedia.com/portfolio" },
     // { title: `CONTACT US`, link: "/contact" },
   ],
 };

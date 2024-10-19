@@ -17,7 +17,6 @@ interface BlogAreaProps {
 }
 
 const BlogArea: React.FC<BlogAreaProps> = ({ blog_data }) => {
-  console.log("blog_data", blog_data);
   function isPartOfSeries(num: number): boolean {
     // Check if (num - 1) is divisible by 3
     if ((num - 1) % 3 === 0) {
@@ -36,9 +35,9 @@ const BlogArea: React.FC<BlogAreaProps> = ({ blog_data }) => {
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_type_1">
               <div className="cs_section_heading_text">
-                <h2 className="cs_section_title anim_heading_title">
-                  New Day <br /> New Inspiration
-                </h2>
+                <h1 className="cs_section_title anim_heading_title">
+                  Blog | Flow Hashtag Media
+                </h1>
               </div>
             </div>
           </div>
