@@ -71,9 +71,9 @@ const BlogDetails = ({ blogData }: blogDataProps) => {
       <div className="container">
         <div className="cs_section_heading cs_style_1">
           <div className="cs_section_heading_text">
-            <h2 className="cs_section_title anim_word_writting">
+            <h1 className="cs_section_title anim_word_writting">
               {blogData?.title}
-            </h2>
+            </h1>
           </div>
         </div>
       </div>
