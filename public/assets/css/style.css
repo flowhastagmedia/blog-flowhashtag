@@ -207,7 +207,7 @@ img {
 }
 
 a {
-  color: inherit;
+  color: #17252a;
   text-decoration: none;
   transition: all 0.3s ease;
 }
@@ -219,7 +219,7 @@ button {
 
 a:hover {
   text-decoration: none;
-  color: #2b7a78;
+  color: #fefefe;
 }
 
 table {
