@@ -150,6 +150,28 @@ h6 {
   font-size: 22px;
 }
 
+@media (max-width: 575.98px) {
+  h2 {
+    font-size: 27.5px;
+  }
+
+  h3 {
+    font-size: 22.5px;
+  }
+
+  h4 {
+    font-size: 17.5px;
+  }
+
+  h5 {
+    font-size: 14px;
+  }
+
+  h6 {
+    font-size: 11px;
+  }
+}
+
 p {
   margin-bottom: 18px;
 }
@@ -201,7 +223,7 @@ img {
 }
 
 a {
-  color: inherit;
+  color: #17252a;
   text-decoration: none;
   transition: all 0.3s ease;
 }
@@ -213,7 +235,7 @@ button {
 
 a:hover {
   text-decoration: none;
-  color: #2b7a78;
+  color: #fefefe;
 }
 
 table {
